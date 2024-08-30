@@ -13,8 +13,10 @@ int main(){
     add = num1 + num2;
     sub = num1 - num2;
     mul = num1 * num2;
-    while(num2!=0){
+    if(num2!=0){
         div = float(num1) / num2;
+    }else{
+        div=0;
     }
     
     mod = num1 % num2;
